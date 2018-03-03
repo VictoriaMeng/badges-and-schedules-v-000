@@ -26,7 +26,6 @@ end
 def printer(names, rooms)
   names = batch_badge_creator(names)
   rooms = assign_rooms(rooms)
-
   names.each { |name| puts "#{name}" }
   rooms.each { |room| puts "#{room}" }
 end
