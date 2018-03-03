@@ -23,5 +23,5 @@ end
 
 def printer(names)
   badges = assign_rooms(names)
-  badges.each { |badge| puts "#{badge}" }
+  badges.each { |badge| puts badge }
 end
