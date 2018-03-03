@@ -23,10 +23,12 @@ def assign_rooms(names)
   rooms
 end
 
-def printer(names, batches)
-  batch_badge_creator(names)
-  rooms = assign_rooms(names)
-  badges.each { |badge| puts "#{badge}" }
+def printer(names, rooms)
+  names = batch_badge_creator(names)
+  rooms = assign_rooms(rooms)
+
+  names.each { |name| puts "#{name}" }
+  rooms.each { |room| puts "#{room}" }
 end
 
 names = %w(Alice Bob)
