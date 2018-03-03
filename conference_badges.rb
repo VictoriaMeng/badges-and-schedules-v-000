@@ -4,3 +4,6 @@ def badge_maker(name)
   puts greeting
   greeting
 end
+
+def batch_badge_creator(name)
+end
