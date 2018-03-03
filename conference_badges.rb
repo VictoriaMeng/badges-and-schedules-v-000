@@ -24,7 +24,5 @@ def assign_rooms(names)
 end
 
 def printer(names)
-
+  puts assign_rooms(names)
 end
-
-puts assign_rooms(%w(alice bob))
