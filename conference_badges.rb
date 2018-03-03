@@ -24,10 +24,6 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  badges = assign_rooms(names)
-  binding.pry
-  badges.each do |badge|
-    binding.pry
-    puts badge
-  end
 end
+
+assign_rooms(%w(alice bob))
