@@ -28,3 +28,7 @@ def printer(names)
   binding.pry
   badges.each { |badge| puts "#{badge}" }
 end
+
+names = %w(Alice Bob)
+
+printer(names)
