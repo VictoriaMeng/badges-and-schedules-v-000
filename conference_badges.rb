@@ -32,3 +32,4 @@ def printer(names)
 end
 
 names = %w(Alice Bob)
+printer(names)
