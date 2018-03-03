@@ -30,3 +30,5 @@ def printer(names)
   badges.each { |badge| puts badge }
   rooms.each { |room| puts room }
 end
+
+names = %w(Alice Bob)
