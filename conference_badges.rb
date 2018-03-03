@@ -20,3 +20,7 @@ def assign_rooms(names)
   end
   badges
 end
+
+def printer(names)
+  puts assign_rooms(name)
+end
