@@ -25,7 +25,6 @@ end
 
 def printer(names)
   badges = assign_rooms(names)
-  binding.pry
   badges.each { |badge| puts "#{badge}" }
 end
 
