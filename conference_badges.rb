@@ -23,7 +23,9 @@ end
 
 def printer(names)
   badges = assign_rooms(names)
+  binding.pry
   badges.each do |badge|
+    binding.pry
     puts badge
   end
 end
